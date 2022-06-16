@@ -338,20 +338,8 @@
 				"Tools"
 			],
 			"description": "A dead simple static HOMepage for your servER to keep your s ervices on hand, from a simple yaml configuration file.",
-			"env": [
-				{
-					"default": "1000",
-					"label": "PUID",
-					"name": "PUID"
-				},
-				{
-					"default": "100",
-					"label": "PGID",
-					"name": "PGID"
-				}
-			],
 			"image": "b4bz/homer:latest",
-			"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/homer.png",
+			"logo": "https://raw.githubusercontent.com/bastienwirtz/homer/main/public/logo.png",
 			"name": "homer",
 			"note": "This container requires a yml file within the config volume. See the documentation here https://github.com/bastienwirtz/homer",
 			"platform": "linux",
