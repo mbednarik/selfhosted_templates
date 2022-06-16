@@ -338,6 +338,13 @@
 				"Tools"
 			],
 			"description": "A dead simple static HOMepage for your servER to keep your s ervices on hand, from a simple yaml configuration file.",
+			"env": [
+				{
+					"default": "0",
+					"label": "INIT_ASSETS",
+					"name": "INIT_ASSETS"
+				}
+			],
 			"image": "b4bz/homer:latest",
 			"logo": "https://raw.githubusercontent.com/bastienwirtz/homer/main/public/logo.png",
 			"name": "homer",
